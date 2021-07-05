@@ -5,11 +5,11 @@
 # 목차
 
 - [기본 SQL 문법](#기본-SQL-문법)
-  -[DDL](#DDL(Data-Definition-Language))
-  -[DML](#DML(Data-Manipulation-Language))
-  -[DCL](#DCL(Data-Control-Language))
+  - [DDL](#DDL(Data-Definition-Language))
+  - [DML](#DML(Data-Manipulation-Language))
+  - [DCL](#DCL(Data-Control-Language))
 - [SELECT](#SELECT)
-  
+
 ## 기본 SQL 문법
  
 ### DDL(Data Definition Language)
@@ -51,14 +51,5 @@
 ```sql
 SELECT NAME 
   FROM ANIMAL_INS 
-  LIMIT n;
-```
-
-### 상위 n개 출력하기
-
-```sql
-SELECT NAME 
-  FROM ANIMAL_INS 
-  ORDER BY DATETIME ASC 
   LIMIT n;
 ```
